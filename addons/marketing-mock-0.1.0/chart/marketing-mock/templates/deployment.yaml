@@ -20,4 +20,8 @@ spec:
           containerPort: 10000
         env:
         - name: DEBUG
-          value: "false"
+          value: "true"
+        - name: APP_NAME
+          value: "sap-marketing-cloud"
+        - name: APP_ID
+          value: "03592900-5987-4d47-a13d-c0d7ad44a37f"

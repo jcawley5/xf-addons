@@ -20,4 +20,11 @@ spec:
           containerPort: 10000
         env:
         - name: DEBUG
-          value: "false"
+          value: "true"
+        - name: APP_NAME
+          value: "sap-commerce-cloud"
+        - name: APP_ID
+          value: "0e412d8e-af8d-4fbd-82a5-d518eea7aef2"
+        - name: TENANT_ID
+          value: "3e64ebae-38b5-46a0-b1ed-9ccee153a0ae"
+
